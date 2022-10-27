@@ -1,0 +1,80 @@
+.register {
+  width: 100vw;
+  height: 100vh;
+  background-color: #918ef4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .card {
+    width: 50%;
+    min-height: 450px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .left {
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h1 {
+        font-weight: bold;
+      }
+      form {
+        input {
+          border-bottom: 1px solid rgb(228, 219, 219);
+          padding: 10px;
+          width: 100%;
+          margin: 20px 0px;
+          font-size: 15px;
+          outline: none;
+        }
+
+        button {
+          width: 50%;
+          height: 30px;
+          background-color: #918ef4;
+          color: #ffff;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .right {
+      flex: 1;
+      padding: 10px 30px;
+      background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
+        url("https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+          center;
+      background-position: top;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      color: white;
+
+      h1 {
+        font-size: 70px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 15px;
+        font-weight: bold;
+      }
+      span {
+        font-size: 12px;
+      }
+
+      button {
+        width: 50%;
+        height: 30px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+}
